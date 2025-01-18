@@ -337,8 +337,8 @@ def decode_sequence(model, input_vectorizer, label_vectorizer, input_text, max_l
 
 # 8. TRAINING AND PREDICTION
 # Paths
-input_file = '/kaggle/input/chatbot-dataset-for-transformers/input_texts.txt'
-label_file = '/kaggle/input/chatbot-dataset-for-transformers/label_texts.txt'
+input_file = 'input_texts.txt'
+label_file = 'label_texts.txt'
 
 # Parameters
 max_samples = 25000
